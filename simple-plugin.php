@@ -31,4 +31,4 @@ function my_admin_notices(){
          </div>';
 }
 
-add_action('admin_notices', 'my_admin_notices', 10);   //action hooks dont return anything
+add_action('admin_notices', 'my_admin_notices', 10);   
